@@ -85,10 +85,18 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate & UINavi
     @IBAction func takePicture(_ sender: Any) {
         
         
+        #if targetEnvironment(simulator)
+          // your simulator code
+        print("camera not supported in simulator")
+        #else
+        
         let picker = UIImagePickerController()
         picker.delegate = self
         picker.sourceType = .camera
         present(picker, animated: true, completion: nil)
+        
+        #endif
+        
         
     }
     
