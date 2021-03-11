@@ -41,16 +41,16 @@
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wz8-Ov-0cQ">
                                         <rect key="frame" x="108.33333333333334" y="0.0" width="100.33333333333334" height="30"/>
-                                        <state key="normal" title="Face"/>
+                                        <state key="normal" title="Image"/>
                                         <connections>
-                                            <action selector="faceDetection:" destination="BYZ-38-t0r" eventType="touchUpInside" id="H9h-1w-aHX"/>
+                                            <action selector="imageLabeling:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Vki-FN-gBA"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K6h-41-kQ5">
                                         <rect key="frame" x="216.66666666666666" y="0.0" width="100.33333333333334" height="30"/>
-                                        <state key="normal" title="Image"/>
+                                        <state key="normal" title="Face"/>
                                         <connections>
-                                            <action selector="imageLabeling:" destination="BYZ-38-t0r" eventType="touchUpInside" id="E5b-5k-vor"/>
+                                            <action selector="faceDetection:" destination="BYZ-38-t0r" eventType="touchUpInside" id="px4-bc-S9Q"/>
                                         </connections>
                                     </button>
                                 </subviews>
